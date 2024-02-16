@@ -9,10 +9,14 @@ The Payment class is a Java program designed to determine who should pay based o
 To use the Payment class, follow these steps:
 
 **Compile the Program: Compile the Payment.java file using the Java compiler.**
--  run: javac Payment.java
+```
+javac Payment.java
+```
 
 **Run the Program: Execute the compiled program with appropriate arguments.**
--  java Payment orders.txt [last_person]
+```
+java Payment orders.txt [last_person]
+```
 
 
 -  orders.txt: Specify the text file containing the list of names, orders, and costs. The format of each line should be <NAME>, <ORDER>: $<COST>.
