@@ -6,7 +6,7 @@ The Payment class is a Java program designed to determine who should pay based o
 
 ### Usage
 
-To use the Payment class, follow these steps:
+To use the Payment class, follow these steps (Using files location in directory):
 
 **Compile the Program: Compile the Payment.java file using the Java compiler.**
 ```
