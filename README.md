@@ -45,5 +45,8 @@ java Payment orders.txt [last_person]
 
 -  **getMax(HashMap<String, Double> orders, String lastPayed):** Determines the person who should pay based on the highest cost of the order, excluding the last person who paid if provided.
 
-@author Henry Gates
-@Version 1.0
+
+###Author
+
+-  @author Henry Gates
+-  @Version 1.0
