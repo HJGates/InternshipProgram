@@ -19,7 +19,7 @@ java Payment orders.txt [last_person]
 ```
 
 
--  orders.txt: Specify the text file containing the list of names, orders, and costs. The format of each line should be <NAME>, <ORDER>: $<COST>.
+-  orders.txt: Specify the text file containing the list of names, orders, and costs. The format of each line should be **NAME**, **ORDER**: $**COST**.
 -  last_person (Optional): Provide the name of the last person who paid, if applicable.
 *** Note: If last_person is provided, they will be excluded from being assigned the payment. *** 
 
@@ -37,12 +37,13 @@ java Payment orders.txt [last_person]
 
 -  If the program is executed with an incorrect number of arguments (not 1 or 2), it will display an error message and exit.
 -  If there's an error reading or writing the file specified, the program will output an error message indicating the issue.
+-  If the file contains blank lines, program will error and exit
 
 ### Methods
 
 -  **getOrders(String fileName):** Reads the orders from the specified file and returns a HashMap containing names and their respective order costs.
 
--  **getMax(HashMap<String, Double> orders, String lastPayed):** Determines the person who should pay based on the highest cost of order, excluding the last person who paid if provided.
+-  **getMax(HashMap<String, Double> orders, String lastPayed):** Determines the person who should pay based on the highest cost of the order, excluding the last person who paid if provided.
 
 @author Henry Gates
 @Version 1.0
